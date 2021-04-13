@@ -2,8 +2,8 @@
 
 ## Description of included Jupyter notebooks
 
-scraping_page - work for finding all desired information from individual game pages /n
-scraping_list - work for finding list of all games from Steam's list of games /n
+scraping_page - work for finding all desired information from individual game pages <br>
+scraping_list - work for finding list of all games from Steam's list of games <br>
 final_scraping_pipeline - putting previous together to scrape both the list of games, as well as the information from each game in the list, and merging together
 df_editing - used for creating and saving dataframes from totaldf filtered on desired rows/columns
 modeling_work - used to begin to make linear regression models
