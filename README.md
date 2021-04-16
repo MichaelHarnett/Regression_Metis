@@ -18,6 +18,7 @@ totaldf - gamesdf1 and games_joined into to final df with all desierd features<b
 prelimdf - totaldf filtered to only inlcude rows that have total reviews, and only include numerical features, to create a base model for MVP<br>
 reviewsdf - dataframe of just games with total reviews listed, including columns for rating value and top 10 publisher list<br>
 prelimdf2 - second preliminary dataframe. upadted rating to numeric value, included year released.<br>
-prelimdf3 - updated prelimdf2 to include number of languages offered in and first run at dummy variables (publisher, broken down by top 10 and other)
-finaldf - final dataframe of all data after dummifying
+prelimdf3 - updated prelimdf2 to include number of languages offered in and first run at dummy variables (publisher, broken down by top 10 and other)<br>
+finaldf - final dataframe of all data after dummifying<br>
+modlingdf - final usable df used for all modeling
 
