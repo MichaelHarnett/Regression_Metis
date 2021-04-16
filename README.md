@@ -19,4 +19,5 @@ prelimdf - totaldf filtered to only inlcude rows that have total reviews, and on
 reviewsdf - dataframe of just games with total reviews listed, including columns for rating value and top 10 publisher list<br>
 prelimdf2 - second preliminary dataframe. upadted rating to numeric value, included year released.<br>
 prelimdf3 - updated prelimdf2 to include number of languages offered in and first run at dummy variables (publisher, broken down by top 10 and other)
+finaldf - final dataframe of all data after dummifying
 
