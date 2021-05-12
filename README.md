@@ -16,13 +16,9 @@ This is a working notebook, and is not fully cleaned and organized, at this poin
 
 ## Data included in data folder
 
-gamesdf1 - list of games, and their page links,  from scraping the list from steam's site<br>
-games_joined - final concat list of all scraped pages<br>
-totaldf - gamesdf1 and games_joined into to final df with all desierd features<br>
-prelimdf - totaldf filtered to only inlcude rows that have total reviews, and only include numerical features, to create a base model for MVP<br>
-reviewsdf - dataframe of just games with total reviews listed, including columns for rating value and top 10 publisher list<br>
-prelimdf2 - second preliminary dataframe. upadted rating to numeric value, included year released.<br>
-prelimdf3 - updated prelimdf2 to include number of languages offered in and first run at dummy variables (publisher, broken down by top 10 and other)<br>
-finaldf - final dataframe of all data after dummifying<br>
-modlingdf - final usable df used for all modeling
-
+<b>totaldf.csv</b> - Data frame from all Steam Game Store scraping<br><br>
+<b>reviewsdf.csv</b> - Cleaned versoin of totaldf, after handling nulls and categorical data<br><br>
+<b>steamspyapi.csv</b> - All information aquired through the SteamSpy api<br><br>
+<b>spyscraped.csv</b> - All data scraped from SteamSpy.com<br><br>
+<b>ownerdf.csv</b> - A merge of steamspyapi.csv onto reviewsdf.csv<br><br>
+<b>nicedf</b> - *likely to be removed/updated* Dataframe of all 3 information sources
