@@ -17,7 +17,7 @@ This is a working notebook, and is not fully cleaned and organized, at this poin
 ## Data included in data folder
 
 <b>totaldf.csv</b> - Data frame from all Steam Game Store scraping<br>
-<b>reviewsdf.csv</b> - Cleaned versoin of totaldf, after handling nulls and categorical data<br><br>
+<b>reviewsdf.csv</b> - Cleaned versoin of totaldf, after handling nulls and categorical data<br>
 <b>steamspyapi.csv</b> - All information aquired through the SteamSpy api<br>
 <b>spyscraped.csv</b> - All data scraped from SteamSpy.com<br>
 <b>ownerdf.csv</b> - A merge of steamspyapi.csv onto reviewsdf.csv<br>
