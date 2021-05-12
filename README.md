@@ -14,7 +14,7 @@ target_transformations - The target (owners) was unevenly distributted, this not
 
 
 
-## data included in data folder
+## Data included in data folder
 
 gamesdf1 - list of games, and their page links,  from scraping the list from steam's site<br>
 games_joined - final concat list of all scraped pages<br>
